@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Army.Decorator">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Army.Weapon" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.632" />
+        <Point X="2.5" Y="3" />
+        <Point X="4.188" Y="3" />
+        <Point X="4.188" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.RealWeapon">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.SightDecorator">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SightDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.SilencerDecorator">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SilencerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army.Weapon">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAABgAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
